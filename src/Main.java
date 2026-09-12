@@ -24,6 +24,17 @@ public class Main {
         int jumlah2 = input.nextInt();
         input.nextLine();
 
+        System.out.print("\nNama barang 3 : ");
+        String nama3 = input.nextLine();
+
+        System.out.print("Harga satuan  : ");
+        int harga3 = input.nextInt();
+
+        System.out.print("Jumlah        : ");
+        int jumlah3 = input.nextInt();
+
+
+
 
 
 
