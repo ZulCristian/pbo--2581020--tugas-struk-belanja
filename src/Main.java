@@ -33,8 +33,16 @@ public class Main {
         System.out.print("Jumlah        : ");
         int jumlah3 = input.nextInt();
 
+        int subtotal1 = harga1 * jumlah1;
+        int subtotal2 = harga2 * jumlah2;
+        int subtotal3 = harga3 * jumlah3;
 
+        int totalBelanja = subtotal1 + subtotal2 + subtotal3;
 
+        System.out.print("\nUang dibayar  : ");
+        int uangDibayar = input.nextInt();
+
+        int kembalian = uangDibayar - totalBelanja;
 
 
 
